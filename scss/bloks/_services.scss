@@ -1,0 +1,39 @@
+.services {
+  text-align: center;
+  background-image: url(../img/services.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:85px 0px 214px 0px;
+}
+.services__title {
+  font-size: 48px;
+  font-family: sans-serif;
+  color: red;
+}
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0em;
+  margin: 0;
+  color: #00293d;
+  font-family: sans-serif;
+}
+.services___item {
+  margin-right: 15px;
+  padding: 30px 15px;
+  background-color: white;
+  margin-bottom: 16px;
+}
+.services__button {
+  background-color: #f5db46;
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: 0px 7px 15px -1px #bdd7e0;
+  box-shadow: 0px 7px 15px -1px #bdd7e0;
+}
+.services__button:hover {
+  cursor: pointer;
+}

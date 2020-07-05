@@ -1,0 +1,42 @@
+.site-navbar__wrapper {
+   display: flex;
+   background-image: url(../img/Плашка.png);
+   background-size: cover;
+}
+.navbar__list{
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+   padding: 0em;
+}
+.navbar__item{
+  margin:0px 8px 0px 8px;
+  padding:29px 8px 30px 8px;
+  text-transform:uppercase;
+  
+}
+.navbar__link{
+   font-family: 'LatoHairline';
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+}
+.navbar__link--active{
+ background-color: #05b7db;
+ padding:30px 10px 30px 10px;
+}
+.call{
+   display:flex;
+   margin:0px 0px 0px 26px;
+}
+.call img{
+   margin-right: 10px;
+}
+.tel{
+   margin-bottom: 2px;
+   color: white;
+   text-decoration: none;
+}
+.call__text{
+   color: white;
+}

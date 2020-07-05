@@ -1,0 +1,13 @@
+body{
+   margin:0px 0px 0px 0px;
+   padding:0px 0px 0px 0px;
+   box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+}
+.wrapper{
+   position: relative;
+}

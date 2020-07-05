@@ -1,0 +1,55 @@
+.statistics{
+   background-image: url(../img/satisitika__fon.png);
+   color: white;
+   padding:50px 0px 118px 0px;
+   position: relative;
+   top: -112px;
+   z-index: 1;
+}
+.statistics__title {
+  color: #057293;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+}
+.statistics__title::before {
+  position: absolute;
+  content: "awa";
+  color: transparent;
+  border-top: 1px solid blue;
+  bottom: -12px;
+  left: 42%;
+}
+.statistics__title::after {
+   position: absolute;
+   content: "awa";
+   color: transparent;
+   border-top: 1px solid blue;
+   bottom: -12px;
+   right:42%;
+ }
+ 
+ .statistics__text{
+   text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+ }
+ .list__statistics{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0em;
+   
+ }
+ .item__statistics .number{
+    color: #057293;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+ }
+ .item__statistics .text{
+   font-size: 22px;
+   letter-spacing: 2px;
+   font-family: sans-serif;
+ }

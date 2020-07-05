@@ -1,0 +1,89 @@
+.header__main {
+   text-align: center;
+   color: white;
+   padding: 129px 100px 60px 100px;
+}
+.header__title {
+   font-size: 48px;
+   line-height: 1.5;
+   margin: 0;
+}
+
+.main__list {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   padding: 0em;
+   margin-top: 69px;
+   margin-bottom: 54px;
+   justify-content: space-between;
+}
+.main__item {
+   display: flex;
+   align-items: center;
+}
+.main__item span {
+   font-size: 18px;
+}
+.header__icon {
+   margin-right: 16px;
+}
+.about {
+   padding: 20px 57px 20px 38px;
+   background-color: #05b7db;
+   position: relative;
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   margin-bottom: 115px;
+   font-size: 16px;
+   transition:all 1s linear;
+   -moz-transition:all 1s linear;
+   -webkit-transition:all 1s linear;
+   -o-transition:all 1s linear;
+   font-family: sans-serif;
+}
+.about::before {
+   content: "a";
+   position: absolute;
+   z-index: 1;
+   margin-top: -20px;
+   margin-left: -38px;
+   padding: 20px;
+   color: transparent;
+   display: none;
+  
+}
+.about::after {
+   content: "a";
+   position: absolute;
+   z-index: 3;
+   margin-top: -39px;
+   margin-left: 140px;
+   padding: 20px;
+   color: transparent;
+   display: none;
+   transition:all 1s linear;
+   -moz-transition:all 1s linear;
+   -webkit-transition:all 1s linear;
+   -o-transition:all 1s linear;
+  
+}
+
+.about:hover:before{
+  display: block;
+  background-image: url(../img/uchburchak.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about:hover:after{
+   display: block;
+   background-image: url(../img/uchberchak2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+.link-wrapper{
+   width: 208px;
+   margin: 0 auto;
+   overflow: hidden;
+}
